@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center text-info mb-3">Quản lý sinh viên</h1>
+        <form class="mb-3">
+            <!-- name -->
+            <div class="mb-3">
+                <label for="name" class="form-label">Tên</label>
+                <input type="text" id="name" class="form-control">
+            </div>
+            <!-- birthday -->
+            <div class="mb-3">
+                <label for="birthday" class="form-label">Ngày sinh</label>
+                <input type="date" id="birthday" class="form-control">
+            </div>
+            <button class="btn btn-primary" >Thêm</button>
+        </form>
+        <!-- thông báo -->
+        <div id="notification">
+            
+        </div>
+        <!-- hiển thị danh sách sinh viên -->
+        <table class="table table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>STT</th>
+                    <th>Tên</th>
+                    <th>Ngày Sinh</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--  -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./style.js"></script>
+</body>
+</html>
